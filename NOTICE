@@ -1,0 +1,16 @@
+Repository provenance notice
+
+This repository is a cleaned minimal release derived from historical research files located in /home/god/crypto-lab.
+
+Included source/artifact relationship:
+  src/sbox_lfsr_runs_fix.py
+      -> data/prng_bits_runs_final.txt
+
+The relationship was verified by regenerating the output in an isolated temporary directory and comparing the generated and preserved files byte-for-byte.
+
+Excluded materials include other historical source revisions, other bitstream outputs, and a compiled statistical-test executable. Their inclusion would require separate provenance, reproducibility, and licensing review.
+
+Copyright 2026 Niringiye Godfrey
+
+Licensed under the Apache License, Version 2.0.
+See LICENSE for the complete license text.
