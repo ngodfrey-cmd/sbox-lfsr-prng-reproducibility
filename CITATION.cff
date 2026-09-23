@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated research article."
+title: "S-Box-Controlled Multi-LFSR PRNG: Reproducibility Materials"
+authors:
+  - family-names: Godfrey
+    given-names: Niringiye
+license: Apache-2.0
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Godfrey
+      given-names: Niringiye
+    - family-names: Lee
+      given-names: Hoon Jae
+    - family-names: Jang
+      given-names: Ick Hoon
+  title: "Secure One-Time Passwords for IoT Devices Using an LCG-Enhanced LFSR Architecture"
+  journal: "International Journal of Advanced Smart Convergence"
+  volume: 15
+  issue: 2
+  start: 38
+  end: 48
+  year: 2026
+  doi: 10.7236/IJASC.2026.15.2.38

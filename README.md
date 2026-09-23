@@ -59,3 +59,15 @@ The original working directory contained additional source revisions, generated 
 ## Integrity
 
 See `SHA256SUMS.txt` for SHA-256 checksums of the published repository artifacts.
+
+## Associated research paper
+
+This reproducibility repository is associated with the following open-access research article:
+
+> Niringiye Godfrey, Hoon Jae Lee, and Ick Hoon Jang, “Secure One-Time Passwords for IoT Devices Using an LCG-Enhanced LFSR Architecture,” *International Journal of Advanced Smart Convergence*, vol. 15, no. 2, pp. 38–48, 2026. DOI: [10.7236/IJASC.2026.15.2.38](https://doi.org/10.7236/IJASC.2026.15.2.38)
+
+## Relationship to the paper
+
+The repository preserves a verified Python source/artifact pair for a deterministic S-box-controlled multi-LFSR PRNG experiment. It provides historical reproducibility materials associated with the broader research context of the cited work.
+
+The present Python implementation is not represented as a direct software reproduction of every hardware and architectural detail of the paper’s LCG-OTP12 design, including its 129-bit LFSR and modulo-131 LCG-controlled tap-selection mechanism.
